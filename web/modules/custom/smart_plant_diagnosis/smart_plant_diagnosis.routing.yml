@@ -5,3 +5,10 @@ smart_plant_diagnosis.content:
     _title: 'Smart Plant Diagnosis'
   requirements:
     _permission: 'access content'
+smart_plant_diagnosis.image_upload_form:
+  path: '/smart-plant-diagnosis/upload'
+  defaults:
+    _form: '\Drupal\smart_plant_diagnosis\Form\ImageUploadForm'
+    _title: 'Upload Plant Image'
+  requirements:
+    _permission: 'access content'
