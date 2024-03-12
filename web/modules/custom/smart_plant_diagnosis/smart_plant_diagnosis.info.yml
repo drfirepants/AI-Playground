@@ -1,0 +1,8 @@
+name: 'Smart Plant Diagnosis'
+type: module
+description: 'Provides AI-powered plant disease diagnosis tools.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:image
+

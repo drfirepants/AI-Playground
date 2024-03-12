@@ -1,0 +1,7 @@
+smart_plant_diagnosis.content:
+  path: '/smart-plant-diagnosis'
+  defaults:
+    _controller: '\Drupal\smart_plant_diagnosis\Controller\DiagnosisController::content'
+    _title: 'Smart Plant Diagnosis'
+  requirements:
+    _permission: 'access content'

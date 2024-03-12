@@ -1,0 +1,4 @@
+name: ai-sandbox
+recipe: drupal10
+config:
+  webroot: ./web
